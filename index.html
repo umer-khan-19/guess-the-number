@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess The Number By-Umer Khan</title>
+</head>
+
+<body>
+    <header>
+
+        <nav id="nav-bar" class="nav-container">
+
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <!-- <li><a href="#instructions">About</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <div class="discription-container">
+            <div class="section-container">
+
+                <p class="description">
+                    Think a number in your mind between <b>0 to 100</b>
+                    Check your number in all cards below.
+                    If your number is belongs to that card then enter <b>YES</b> other wise <b>NO</b>.
+                </p>
+
+                <div class="action-btn">
+                    <a href="#cards"> <button id="start-button" class="start-btn">Start The Game</button></a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- <h2 id="result">Sum: 0</h2> -->
+
+        <div id="cards" class="card-section">
+
+            <div id="card1" class="card">
+                <span>1</span><span>3</span><span>5</span><span>7</span><span>9</span><span>11</span>
+                <span>13</span><span>15</span><span>17</span><span>19</span><span>21</span><span>23</span>
+                <span>25</span><span>27</span><span>29</span><span>31</span><span>33</span><span>35</span>
+                <span>37</span><span>39</span><span>41</span><span>43</span><span>45</span><span>47</span>
+                <span>49</span><span>51</span><span>53</span><span>55</span><span>57</span><span>59</span>
+                <span>61</span><span>63</span><span>65</span><span>67</span><span>69</span><span>71</span>
+                <span>73</span><span>75</span><span>77</span><span>79</span><span>81</span><span>83</span>
+                <span>85</span><span>87</span><span>89</span><span>91</span><span>93</span><span>95</span><span>97</span><span>99</span>
+                <div class="text-input"><input id="input1" placeholder="Enter yes/no" type="text"></div>
+                <!-- <span class="input-error">Enter YES or NO</span> -->
+            </div>
+
+            <div id="card2" class="card">
+                <span>2</span><span>3</span><span>6</span><span>7</span><span>10</span><span>11</span>
+                <span>14</span><span>15</span><span>18</span><span>19</span><span>22</span><span>23</span>
+                <span>26</span><span>27</span><span>30</span><span>31</span><span>34</span><span>35</span>
+                <span>38</span><span>39</span><span>42</span><span>43</span><span>46</span><span>47</span>
+                <span>50</span><span>51</span><span>54</span><span>55</span><span>58</span><span>59</span>
+                <span>62</span><span>63</span><span>66</span><span>67</span><span>70</span><span>71</span>
+                <span>74</span><span>75</span><span>78</span><span>79</span><span>82</span><span>83</span>
+                <span>86</span><span>87</span><span>90</span><span>91</span><span>94</span><span>95</span><span>98</span><span>99</span>
+                <div class="text-input"><input id="input2" placeholder="Enter yes/no" type="text"></div>
+            </div>
+
+            <div id="card3" class="card">
+                <span>4</span><span>5</span><span>6</span><span>7</span><span>12</span><span>13</span>
+                <span>13</span><span>14</span><span>15</span><span>20</span><span>21</span><span>22</span>
+                <span>23</span><span>28</span><span>29</span><span>30</span><span>31</span><span>36</span>
+                <span>37</span><span>38</span><span>39</span><span>44</span><span>45</span><span>46</span>
+                <span>47</span><span>52</span><span>53</span><span>54</span><span>55</span><span>60</span>
+                <span>61</span><span>62</span><span>63</span><span>68</span><span>69</span><span>70</span>
+                <span>71</span><span>76</span><span>77</span><span>78</span><span>79</span><span>84</span>
+                <span>85</span><span>86</span><span>87</span><span>92</span><span>93</span><span>94</span><span>95</span><span>100</span>
+                <div class="text-input"><input id="input3" placeholder="Enter yes/no" type="text"></div>
+            </div>
+
+            <div id="card4" class="card">
+                <span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span>
+                <span>14</span><span>15</span><span>24</span><span>25</span><span>26</span><span>27</span>
+                <span>28</span><span>29</span><span>30</span><span>31</span><span>40</span><span>41</span>
+                <span>42</span><span>43</span><span>44</span><span>45</span><span>46</span><span>47</span>
+                <span>56</span><span>57</span><span>58</span><span>59</span><span>60</span><span>61</span>
+                <span>62</span><span>63</span><span>72</span><span>73</span><span>74</span><span>75</span>
+                <span>76</span><span>77</span><span>78</span><span>79</span><span>88</span><span>89</span>
+                <span>90</span><span>91</span><span>92</span><span>93</span><span>94</span><span>95</span>
+                <div class="text-input"><input id="input4" placeholder="Enter yes/no" type="text"></div>
+            </div>
+
+            <div id="card5" class="card">
+                <span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span>
+                <span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span>
+                <span>28</span><span>29</span><span>30</span><span>31</span><span>48</span><span>49</span>
+                <span>50</span><span>51</span><span>52</span><span>53</span><span>54</span><span>55</span>
+                <span>56</span><span>57</span><span>58</span><span>59</span><span>60</span><span>61</span>
+                <span>62</span><span>63</span><span>80</span><span>81</span><span>82</span><span>83</span>
+                <span>84</span><span>85</span><span>86</span><span>87</span><span>88</span><span>89</span>
+                <span>90</span><span>91</span><span>92</span><span>93</span><span>94</span><span>95</span>
+                <div class="text-input"><input id="input5" placeholder="Enter yes/no" type="text"></div>
+            </div>
+
+
+            <div id="card6" class="card">
+                <span>32</span><span>33</span><span>34</span><span>35</span><span>36</span><span>37</span>
+                <span>38</span><span>39</span><span>40</span><span>41</span><span>42</span><span>43</span>
+                <span>44</span><span>45</span><span>46</span><span>47</span><span>48</span><span>49</span>
+                <span>50</span><span>51</span><span>52</span><span>53</span><span>54</span><span>55</span>
+                <span>56</span><span>57</span><span>58</span><span>59</span><span>60</span><span>61</span>
+                <span>62</span><span>63</span><span>96</span><span>97</span><span>98</span><span>99</span>
+                <span>100</span>
+                <div class="text-input"><input id="input6" placeholder="Enter yes/no" type="text"></div>
+            </div>
+
+            <div id="card7" class="card">
+                <span>64</span><span>65</span><span>66</span><span>67</span><span>68</span><span>69</span>
+                <span>70</span><span>71</span><span>72</span><span>73</span><span>74</span><span>75</span>
+                <span>76</span><span>77</span><span>78</span><span>79</span><span>80</span><span>81</span>
+                <span>82</span><span>83</span><span>84</span><span>85</span><span>86</span><span>87</span>
+                <span>88</span><span>89</span><span>90</span><span>91</span><span>92</span><span>93</span>
+                <span>94</span><span>95</span><span>96</span><span>97</span><span>98</span><span>99</span>
+                <span>100</span>
+                <div class="text-input"><input id="input7" placeholder="Enter yes/no" type="text"></div>
+            </div>
+
+        </div>
+
+    </main>
+    
+    <div class="msg-container hide">
+        <p id="msg">Winner</p>
+        <a href="#nav-bar">
+            <button id="new-btn">New Game</button>
+        </a>
+    </div>
+<!-- 
+    <footer class="footer">
+
+        <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+    
+                <div class="contact-info-container">
+                    <a href="mailto:umerkhan.contact1@gmail.com" target="_blank">
+                        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                    </a>
+                    <p><a href="mailto:umerkhan.contact1@gmail.com" target="_blank">umerkhan.contact1@gmail.com</a></p>
+                </div>
+                
+                <div class="contact-info-container">
+                    <a href="https://www.linkedin.com/in/umer-khan-b64741220" target="_blank">
+                        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="linkedin icon contact-icon" />
+                    </a>
+                    <p><a href="https://www.linkedin.com/in/umer-khan-b64741220" target="_blank">LinkedIn</a></p>
+                </div>
+                
+                <div class="contact-info-container">
+                    <a href="https://www.github.com/umer-khan-19" target="_blank">
+                        <img src="./assets/github.png" alt="GitHub icon" class="github icon contact-icon" />
+                    </a>
+                    <p><a href="https://www.github.com/umer-khan-19" target="_blank">GitHub</a></p>
+                </div>
+                
+                <div class="contact-info-container">
+                    <a href="https://www.youtube.com/@codeswithu7062" target="_blank">
+                        <img src="./assets/youtube.png" alt="youtube icon" class="youtube icon contact-icon" />
+                    </a>
+                    <p><a href="https://www.youtube.com/@codeswithu7062" target="_blank">Youtube</a></p>
+                </div>
+                
+            </div>
+        </section>
+
+    </footer> -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
